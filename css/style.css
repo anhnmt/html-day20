@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+.cls {
+    clear: both;
+}
+
 .container {
     width: 90%;
     margin: 0 auto;
@@ -23,7 +31,6 @@
 
 .header {
     padding: 20px 0;
-    overflow: hidden;
 }
 
 .menu li {
@@ -34,7 +41,7 @@
 .menu a {
     text-transform: uppercase;
     text-decoration: none;
-    color: #000;
+    color: #8e8e8e;
 }
 
 .menu li:hover {
@@ -55,10 +62,6 @@
     margin-top: 15%;
 }
 
-.social {
-    float: right;
-}
-
 .welcome h3,
 .welcome p,
 .social h3 {
@@ -68,15 +71,11 @@
 
 .main {
     background-color: #34495e;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .main .container {
     padding: 15px 0;
-}
-
-.cls {
-    clear: both;
 }
 
 .list-box li {
@@ -139,4 +138,14 @@
 
 .footer {
     height: 300px;
+    overflow: hidden;
+}
+
+.footer-menu li {
+    display: inline-block;
+}
+
+.footer-menu a {
+    padding: 10px 15px;
+    color: #5984b6;
 }

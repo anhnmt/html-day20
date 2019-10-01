@@ -9,6 +9,7 @@ $(document).click(function (e)
     }
 });
 
+// Sự kiện dropdown click
 dropdown.click(function ()
 {
     $(this).toggleClass('show').find("ul").toggle();
